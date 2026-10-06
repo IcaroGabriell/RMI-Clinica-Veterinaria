@@ -15,7 +15,7 @@ import javax.swing.JTextField;
 public class Cliente {
 
     // IP da máquina do servidor
-    private static final String IP_SERVIDOR = "127.0.0.1";
+    private static final String IP_SERVIDOR = "192.168.0.1"; //COLOQUE AQUI O IP DO SERVIDOR
 
     private static Servico servico;
 
