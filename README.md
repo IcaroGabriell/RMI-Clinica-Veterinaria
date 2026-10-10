@@ -1,7 +1,15 @@
-# RMI - Clínica Veterinária
-Trabalho 1 - Sistemas Distribuídos (UEMG)
+# Sistema de Gestão de Clínica Veterinária
 
-Projeto acadêmico de um sistema de gestão de clínica veterinária em Java com RMI e MySQL. O cliente tem interface gráfica e se comunica com o servidor, que acessa o banco de dados.
+Projeto desenvolvido para a disciplina de **Sistemas Distribuídos**, do curso de Engenharia de Computação da UEMG – Divinópolis.
+
+O sistema é uma aplicação distribuída em Java, em que um cliente com interface gráfica se comunica com um servidor por meio de **RMI**, e o servidor armazena os dados em um banco **MySQL**.
+
+## Tecnologias
+
+- Java
+- RMI
+- MySQL
+- JDBC
 
 ## Estrutura
 
@@ -18,3 +26,11 @@ Projeto acadêmico de um sistema de gestão de clínica veterinária em Java com
 2. Ajuste usuário e senha do banco em `ServicoImpl.java`.
 3. Na máquina do servidor, execute `Servidor`.
 4. Na máquina do cliente, ajuste o IP do servidor em `Cliente.java` e execute `Cliente`.
+
+## Autores
+
+**Ícaro Gabriel dos Santos**  
+**Raphael Muro Pimentel**
+
+Engenharia de Computação — UEMG Divinópolis  
+2026
